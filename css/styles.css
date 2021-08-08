@@ -1,0 +1,92 @@
+:root {
+  --color-main: #E4FBFF;
+  --color-second: #B8B5FF;
+  --color-third: #7868E6;
+  --color-fourth: #EDEEF7;
+}
+
+div{
+  background-color: var(--color-main);
+}
+
+
+body{
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right:0px;
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.headings{
+  margin-top:0px;
+  margin: 0 auto 0 auto;
+}
+
+h1{
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+
+  color: #66BFBF;
+}
+
+h3{
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+.middle-container{
+
+}
+.bottom-container{
+
+}
+
+.top-cloud{
+  position: relative;
+  padding-top: 100px;
+  left: 250px;
+}
+.bottom-cloud{
+  position:absolute;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.programmer{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 12px;
+}
+.AI{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.citation1{
+  margin-top: 24px;
+  font-size: 12px;
+  clear: left;
+}
+.citation2{
+  font-size: 12px;
+  clear: right;
+}
