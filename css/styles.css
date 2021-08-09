@@ -5,20 +5,11 @@
   --color-fourth: #EDEEF7;
 }
 
-div{
-  background-color: var(--color-main);
-}
-
-
 body{
-
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right:0px;
   margin: 0px;
   text-align: center;
   font-family: 'Merriweather', serif;
+  background-color: var(--color-main);
 }
 .headings{
   margin-top:0px;
@@ -49,11 +40,11 @@ a{
   color: #11999E;
 }
 
-.middle-container{
-
-}
 .bottom-container{
-
+  position: relative;
+}
+.bottom-container p{
+  margin-bottom: 1pxs;
 }
 
 .top-cloud{
@@ -128,6 +119,9 @@ a{
 }
 .logo{
   width: 17%;
-  float: right;
-  margin: auto;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  font-size: 50px;
 }
