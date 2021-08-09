@@ -29,7 +29,8 @@ h1{
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
-  color: #66BFBF;
+/*  color: #66BFBF;*/
+  color: #075985;
 }
 
 h2{
@@ -63,6 +64,18 @@ a{
 .bottom-cloud{
   position:absolute;
 }
+.webdev{
+  display: none;
+}
+.citation{
+  display: none;
+}
+.profile-row{
+    width: 50%;
+    margin: 0px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 
 .skill-row{
     width: 50%;
@@ -71,22 +84,50 @@ a{
     line-height: 2;
 }
 .programmer{
+  width: 15%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 12px;
+}
+.python{
   width: 25%;
   float: left;
   margin-right: 30px;
   margin-bottom: 12px;
+}
+.citation-programmer{
+    margin-top: 24px;
+    font-size: 10px;
+    clear: left;
 }
 .AI{
   width: 25%;
   float: right;
   margin-left: 30px;
 }
+.citation{
+  font-size: 12px;
+}
 .citation1{
   margin-top: 24px;
-  font-size: 12px;
+  font-size: 10px;
   clear: left;
 }
 .citation2{
-  font-size: 12px;
+  font-size: 10px;
   clear: right;
+}
+.talk-to-us{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+  text-align: left;
+}
+.btn{
+    margin-top: 100px;
+}
+.logo{
+  width: 17%;
+  float: right;
+  margin: auto;
 }
