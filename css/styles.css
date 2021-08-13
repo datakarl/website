@@ -18,6 +18,9 @@ body{
   margin: 0px auto 0 auto;
 
 }
+.headings2{
+  font-size: 1.75rem;
+}
 
 h1{
   font-size: 5.625rem;
@@ -84,6 +87,13 @@ hr {
   left: 250px;
   bottom: 300px;
 }
+
+.mountain{
+/*  height: 600px;  */
+  width: 100%;
+  padding-top: 50px;
+}
+
 .webdev{
   display: none;
 }
