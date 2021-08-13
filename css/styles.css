@@ -16,17 +16,18 @@ body{
 .headings{
   padding-top: 100px;
   margin: 0px auto 0 auto;
+  font-family: 'Delius';
 
 }
 .headings2{
   font-size: 1.75rem;
+  font-family: 'Delius';
 }
 
 h1{
   font-size: 5.625rem;
   margin: 50px auto 0 auto;
 /*  font-family: 'Allura';*/
-  font-family: 'Bilbo';
 /*  font-family: 'Sacramento', cursive;*/
 /*  color: #66BFBF;*/
   color: #075985;
